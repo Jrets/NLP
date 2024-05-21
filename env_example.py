@@ -1,6 +1,6 @@
 import os
-
 from dotenv import load_dotenv
+
 # относительный путь, рекомендуется глобальный
 load_dotenv("./.env")
 
@@ -10,4 +10,3 @@ username1 = os.environ.get(key, None)
 
 print(username)
 print(username1)
-
